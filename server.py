@@ -23,7 +23,7 @@ def status():
 @app.route("/data")
 def data():
         CLIENT_REPORT = []
-        ipp = open('./data/nag.txt', 'r')
+        ipp = open('/var/log/bootstrap.log', 'r')
         for line in ipp:
              print line
              client = {}
