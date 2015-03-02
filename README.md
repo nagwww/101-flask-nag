@@ -1,0 +1,1 @@
+- Few of Flask tamples for development
